@@ -1,0 +1,17 @@
+ 
+
+.course-item {
+  transition: transform 0.2s ease;
+  cursor: pointer;
+    white-space: nowrap;
+
+ 
+}
+
+.course-item:hover {
+  transform: translateX(5px);
+}
+.course-item svg {
+  font-size: 40px; /* increase icon size */
+  vertical-align: middle; /* align with text */
+} 
